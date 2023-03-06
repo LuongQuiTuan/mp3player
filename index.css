@@ -18,6 +18,9 @@ background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, F
 nav {
     height:4rem;
 }
+.feature{
+    color:black;
+}
 .feature ul{
     padding-left: 2rem;
     list-style-type: none;
@@ -25,7 +28,7 @@ nav {
 
 .feature ul li{
     padding-left: 2rem;
-    background-image: url(../icon/circle-check-solid.svg);
+    background-image: url(./icon/circle-check-solid.svg);
     background-repeat: no-repeat;
     line-height: 1.5rem;
     margin-bottom: 1rem;
