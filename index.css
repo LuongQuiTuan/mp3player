@@ -55,3 +55,13 @@ nav {
 body {
     position: relative;
   }
+  .navbar-collapse.show {
+    background: white;
+    padding-left: 5px;
+   }
+
+   .nav-link[aria-current="page"] {
+    font-weight: bold;
+    text-decoration: underline 0.15rem;
+    text-underline-offset: 0.5rem;
+  }
