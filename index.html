@@ -16,6 +16,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
   <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
   <title>MP3 Player Home</title>
   <link rel="icon" type="image/x-icon" href="icon/pngwing.com.png">
 </head>
@@ -23,34 +24,36 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-light fixed-top shadow">
     <div class="container">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="/">Soundlab</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-md-end" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <li role="none">
+            <a class="nav-link" href="/" aria-current="page">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="bi bi-github"></i> Github</a>
+          <li role="none">
+            <a class="nav-link" href="https://github.com/kaioken166/pythonMusicPlayer"><i class="bi bi-github"></i>Github</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Demo</a>
+          <li role="none">
+            <a class="nav-link" href="/demo.html">Demo</a>
+          </li>
+          <li role="none">
+            <a class="nav-link" href="/install.html">Install</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <header class="page-header gradient">
+  
+  <header class="page-header gradient ">
     <div class="container">
       <div class="row align-items-center justify-content-md-between pt-5">
         <div class="col-md-5">
-          <h2>MP3 File Player</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. </p>
+          <h2>About Soundlab</h2>
+          <p>Soundlab is a software audio player that will transform the way you experience digital music. With a sleek and intuitive interface, Soundlab is designed to be easy to use while offering advanced features for music lovers.          </p>
           <button type="button" class="btn btn-primary btn-lg "><i class="bi bi-github"></i> Github</button>
           <button type="button" class="btn btn-secondary btn-lg m-lg-2">Demo</button>
         </div>
@@ -71,16 +74,14 @@
             <i class="bi bi-tools"></i>
           </div>
           <h3>Easy to install</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text</p>
+          <p>Check our Github page to learn how to install the application</p>
         </div>
         <div class="col-md-6">
           <div class="icon gradient mb-4">
             <i class="bi bi-ubuntu"></i>
           </div>
-          <h3>Easy to install</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text</p>
+          <h3>Made with Python </h3>
+          <p>Soundlab was my by Python and the GUI toolkit that we are using is Tkinter</p>
         </div>
       </div>
     </div>
@@ -99,10 +100,8 @@
           <img src="./images/Music_Monochromatic.svg" alt="Feature img">
         </div>
         <div class="col-md-6">
-          <h1 class="my-4">MP3 Player Features</h1>
-          <p class="my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. </p>
+          <h1 class="my-4">Soundlab Features</h1>
+          <p class="my-4">Soundlab supports a wide range of audio file formats, including MP3, FLAC, AAC, WAV, and more. Create playlists, browse your music library with ease, and take advantage with features like shuffle, playback, and replay gain.</p>
           <ul>
             <li>Add multiple MP3 files</li>
             <li>Play, pause music</li>
@@ -117,6 +116,48 @@
         d="M0,96L48,96C96,96,192,96,288,85.3C384,75,480,53,576,37.3C672,21,768,11,864,26.7C960,43,1056,85,1152,96C1248,107,1344,85,1392,74.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
       </path>
     </svg>
+  </section>
+  <section id="about-us">
+    <div class="container p-3">
+      <H2>The Team</H2>
+      <h5>We are group 9 of Mr. Phieu's open source software development class. Here is our group member:</h5>
+      <div class="row top-buffer"></div>
+      <div class="row row-cols-1 row-cols-md-4">
+        <div class="col">
+          <div class="card w-80 border-dark">
+            <img src="images/1.jpg " alt="" class="rounded-circle m-3" >
+            <div class="card-body">
+              <h5 class="card-title text-center">Huynh Dang Thanh Tri</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card w-80 border-dark" >
+            <img src="images/1.jpg " alt="" class="rounded-circle m-3" >
+            <div class="card-body">
+              <h5 class="card-title text-center">Luong Qui Tuan</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card w-80 border-dark">
+            <img src="images/1.jpg " alt="" class="rounded-circle m-3">
+            <div class="card-body">
+              <h5 class="card-title text-center">Nguyen Thanh Trung</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card w-80 border-dark">
+            <img src="images/1.jpg " alt="" class="rounded-circle m-3">
+            <div class="card-body">
+              <h5 class="card-title text-center">Nguyen Phuoc Toan</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
   </section>
   <section class="gallery">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
